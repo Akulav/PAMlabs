@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         if(intent.hasExtra("pass_back")){
-            val receivedData = intent.getStringExtra("pass_back").toString()
+            val receivedData = intent.getStringExtra("pass_back").toString().toUpperCase()
             txt.text = "$receivedData"
         }
         
