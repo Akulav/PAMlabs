@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn.setOnClickListener {
-            val transmitData = message.text.toString()
+            val transmitData = message_original.text.toString()
             val intent = Intent(this,Activity2::class.java)
             intent.putExtra("transmitData",transmitData)
             startActivity(intent)
