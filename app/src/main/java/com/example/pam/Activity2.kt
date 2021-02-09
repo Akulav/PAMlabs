@@ -13,12 +13,13 @@ class Activity2 : AppCompatActivity() {
         btn2.setOnClickListener {
             val msg = message2.text.toString()
             val intent = Intent(this,MainActivity::class.java)
-            intent.putExtra("pass_back",msg)
+            intent.putExtra("primeste",msg)
             startActivity(intent)
         }
 
-        val receivedData = intent.getStringExtra("transmitData").toString()
-        message2.setText(receivedData)
+        val receivedData = intent.getStringExtra("trimite").toString().toLowerCase()
+        window2TextView.setText("Text will be converted to uppercase.\nReceived text is: " + receivedData)
+        message2.setText("")
 
     }
 }

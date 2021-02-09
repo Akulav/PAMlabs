@@ -10,10 +10,11 @@
     >
 
     <TextView
+        android:id="@+id/window2TextView"
         android:layout_width="299dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Ecran 2. Scrie mesaj pentru ecran 1"
+        android:text="Text will be UPPERCASE"
         android:textSize="22sp" />
 
     <EditText

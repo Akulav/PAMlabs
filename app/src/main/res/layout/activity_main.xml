@@ -18,7 +18,7 @@
            android:id="@+id/text2"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="Ecranu unu"
+           android:text="The text will be converted to lowercase"
            android:textSize="22sp" />
 
        <TextView

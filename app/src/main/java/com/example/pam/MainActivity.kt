@@ -14,13 +14,13 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             val transmitData = message_original.text.toString()
             val intent = Intent(this,Activity2::class.java)
-            intent.putExtra("transmitData",transmitData)
+            intent.putExtra("trimite",transmitData)
             startActivity(intent)
         }
 
-        if(intent.hasExtra("pass_back")){
-            val receivedData = intent.getStringExtra("pass_back").toString().toUpperCase()
-            txt.text = "$receivedData"
+        if(intent.hasExtra("primeste")){
+            val receivedData = intent.getStringExtra("primeste").toString().toUpperCase()
+            txt.text = "Recevied text is: $receivedData"
         }
         
     }
