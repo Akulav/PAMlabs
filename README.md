@@ -25,6 +25,9 @@ What is currently done.
 
 
 # Demo of the application
-![Lab2](EMPTYNOW)
+![MAIN PAGE](https://github.com/Akulav/PAMlabs/blob/lab2/Images/Main.png?raw=true)
+![FEED](https://github.com/Akulav/PAMlabs/blob/lab2/Images/Anunturi.png?raw=true)
+![CART](https://github.com/Akulav/PAMlabs/blob/lab2/Images/Cart.png?raw=true)
+![LANDSCAPE](https://github.com/Akulav/PAMlabs/blob/lab2/Images/Landscape.png?raw=true)
 
 ## Performed by: Catalin Turcan
