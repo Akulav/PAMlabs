@@ -1,14 +1,13 @@
-# Lab 2
+# Lab 3
 
 # Task :
 
-1) Pick a theme for your app. We will not be allowed to change theme after this lab. :heavy_check_mark:
+1) Use Retrofit for API requests :heavy_check_mark:
 
-2) Implement basic UI and layout of your app. Implement design for at least 3 functional screens, this means to create such screen as main home screen, feed or another screen which relates to app business logic.(Created 4 screens: LogIn , Feed , MyProfile , Wish List)  :heavy_check_mark: 
+2) Implement more screens  :heavy_check_mark: 
 
-3) At least 1 screen should present collection of data, in other words list of elements. :heavy_check_mark:
+3) Implemented get requests :heavy_check_mark:
 
-4) Create your UI and layout to support portrait and landscape orientations and different screen sizes starting from phone with small screens (4 inch) to tablets with screen size 12 inch.  :heavy_check_mark:
 
 # Implementation 
 I am doing an online store designed specifically for digital items (instant delivery). Further more, the application will support both: seller and buyer accounts and will allow a seamless transition between the two.
@@ -22,6 +21,10 @@ What is currently done.
 3) Cart Form
 
 4) Landscape mode + support for (hopdefully) most screen sizes.
+
+ADDED:
+
+5) Additional Page for checking your ip (since it is a store app, further work will be done to instruct the user whenether their connection is secure based on ip score.)
 
 
 # Demo of the application

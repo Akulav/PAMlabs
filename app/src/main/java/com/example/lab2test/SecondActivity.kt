@@ -28,6 +28,11 @@ class SecondActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        button2.setOnClickListener{
+            val intent = Intent(this, FourthActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 

@@ -17,7 +17,6 @@
                  val intent = Intent(this, SecondActivity::class.java)
                  startActivity(intent)
              }
-             else "FATAL ERROR 999"
          }
      }
  }
