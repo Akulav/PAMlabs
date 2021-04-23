@@ -1,12 +1,14 @@
-package com.example.lab2test
+package com.example.lab2test.OtherActivities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.lab2test.Item.ExampleAdapter
+import com.example.lab2test.Item.ExampleItem
+import com.example.lab2test.R
 import kotlinx.android.synthetic.main.activity_second.*
-import java.lang.Math
 
 class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +17,8 @@ class SecondActivity : AppCompatActivity() {
 
         val exampleList = generateList((5..20).random())
 
-        recycler_view.adapter = ExampleAdapter(exampleList)
+        recycler_view.adapter =
+            ExampleAdapter(exampleList)
         recycler_view.layoutManager = LinearLayoutManager(this)
         recycler_view.setHasFixedSize(true)
 
@@ -51,7 +54,11 @@ class SecondActivity : AppCompatActivity() {
 
             var f = (5..5000).random()
 
-            val item = ExampleItem(drawable, "Price is $f. Check description for more info","NON-REFUNDABLE")
+            val item = ExampleItem(
+                drawable,
+                "Price is $f. Check description for more info",
+                "NON-REFUNDABLE"
+            )
             list += item
         }
         return list

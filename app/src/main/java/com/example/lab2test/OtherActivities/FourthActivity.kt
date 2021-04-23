@@ -1,15 +1,12 @@
-package com.example.lab2test
+package com.example.lab2test.OtherActivities
 
-import android.annotation.SuppressLint
-import android.content.Context
-import android.net.wifi.WifiManager
 import android.os.Bundle
-import android.text.format.Formatter
 import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lab2test.API.ApiRequests
+import com.example.lab2test.R
 import kotlinx.android.synthetic.main.activity_fourth.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -18,7 +15,6 @@ import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import retrofit2.awaitResponse
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class FourthActivity : AppCompatActivity() {
 

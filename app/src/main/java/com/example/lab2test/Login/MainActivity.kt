@@ -1,8 +1,10 @@
- package com.example.lab2test
+ package com.example.lab2test.Login
 
  import android.content.Intent
  import androidx.appcompat.app.AppCompatActivity
  import android.os.Bundle
+ import com.example.lab2test.R
+ import com.example.lab2test.OtherActivities.SecondActivity
  import kotlinx.android.synthetic.main.activity_main.*
 
  class MainActivity : AppCompatActivity() {
