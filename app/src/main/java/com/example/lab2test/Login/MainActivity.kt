@@ -14,11 +14,27 @@
          setContentView(R.layout.activity_main)
 
          login_btn.setOnClickListener(){
-             if(username_box.text.toString().equals("Catalin")
-                 &&password_box.text.toString().equals("0504229")){
-                 val intent = Intent(this, SecondActivity::class.java)
-                 startActivity(intent)
-             }
+             checkLogin(username_box.text.toString(), password_box.text.toString())
          }
+     }
+
+     fun checkLogin(user: String, pass: String):Boolean {
+         if (user.equals("Catalin") && pass.equals("0504229"))
+         {
+             val intent = Intent(this, SecondActivity::class.java)
+             startActivity(intent)
+             return true;
+         }
+
+         if (user.equals("Catalin") && pass.equals("0504229"))
+             {
+                 return false;
+             }
+
+         else
+         {
+            return false;
+         }
+
      }
  }
