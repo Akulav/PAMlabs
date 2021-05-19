@@ -14,7 +14,14 @@
          setContentView(R.layout.activity_main)
 
          login_btn.setOnClickListener(){
-             checkLogin(username_box.text.toString(), password_box.text.toString())
+             if (checkLogin(username_box.text.toString(), password_box.text.toString()) == false){
+                 username_box.setText("WRONG")
+             }
+
+             else
+             {
+                 username_box.setText("PASSED")
+             }
          }
      }
 
@@ -26,7 +33,7 @@
              return true;
          }
 
-         if (user.equals("Catalin") && pass.equals("0504229"))
+         if (user.equals("") && pass.equals(""))
              {
                  return false;
              }
